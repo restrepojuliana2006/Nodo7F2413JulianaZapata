@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de inscripcion</title>
+</head>
+<body>
+    <h1>Formulario de inscripcion</h1>
+    <form>
+        <fieldset>
+            <legend>Datos personales</legend>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre" required><br><br>
+            <input type="text" id="apellido" name="apellido" placeholder="Apellido" required><br><br>
+            <input type="email" id="email" name="email" placeholder="Email" required><br><br>
+            <input type="text" id="direccion" name="direccion" placeholder="Direccion" required><br><br>
+            <input type="text" id="departamento" name="departamento" placeholder="Departamneto" required><br><br>
+            <input type="text" id="pais" name="pais" placeholder="Pais" required><br><br>
+            <input type="tel" id="telefono" name="telefono" placeholder="Teléfono de contacto" required><br><br>
+            <label for="descripcion">Descripción personal:</label><br>
+        <textarea id="descripcion" name="descripcion" rows="4" cols="50"></textarea><br>
+
+         </fieldset>
+         <fieldset>
+            <label for="carrera">¿A qué carrera deseas inscribirte?</label><br>
+<select id="carrera" name="carrera" required>
+    
+  
+<option value="" disabled selected>Selecciona una opción</option>
+    <option value="jobs_to_be_done">Jobs to be done</option>
+    <option value="cloud_native">Cloud native</option>
+    <option value="frontend">Frontend</option>
+    <option value="backend">Backend</option>
+    <option value="frontend">Frontend</option>
+    <option value="fundamentals">Fundamentals</option>
+    <option value="python">Python</option>
+    <option value="marketing_digital">Marketing digital</option>
+
+         </fieldset>
+        
+    </form>
+
+
+    
+</body>
+</html>
