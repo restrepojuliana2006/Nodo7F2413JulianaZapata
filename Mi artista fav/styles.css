@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E0F4F9; 
+    font-family: Arial, sans-serif; 
+    
+}
+
+.titulo {
+    color: #180090; 
+    font-family: "Times New Roman", serif;
+}
+
+.parrafo {
+    color: #813775; 
+    font-family: Verdana, sans-serif;
+    
+}
+
+.subtitulo {
+    color: #2196F3; 
+    font-family: "Courier New", monospace; 
+}
+
+.enlace {
+    color: #A4078A; 
+    text-decoration: underline; 
+}
+
+.lista-canciones {
+  content: "•"; 
+  color: #ff69b4; 
+  font-size: 1.2em; 
+  margin-right: 5px; 
+}
+
+.lista-discografia {
+  content: "•"; 
+  color: #ff69b4; 
+  font-size: 1.2em; 
+  margin-right: 5px; 
+}
+
+
+.imagen {
+    border: 2px solid #000; 
+}
+
+.spotify-iframe {
+    border-radius: 12px;
+}
